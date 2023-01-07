@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(sk_32_unit_testing)
+
 include_directories(${PROJECT_SOURCE_DIR})
 set(MYSQL_DIR /usr/lib64/)
 set(MYSQL_INCL /usr/include/)
@@ -9,3 +9,5 @@ add_executable(${PROJECT_NAME}  main.cpp DBConnection.cpp ClassThatUsesDB.cpp)
 
 target_link_libraries(${PROJECT_NAME} mysql)
 target_include_directories(${PROJECT_NAME} PUBLIC ${MYSQL_INCL})
+
+#target_include_directories(multiply PUBLIC include)
