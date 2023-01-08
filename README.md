@@ -8,6 +8,7 @@ Create and test two classes:
 
 ## How to use
 Tested with `Linux Fedora 37`. You need to install `gcc`, `cmake` version 3.25 or higher and `mysql` library.\
+Before first start app pursue command mysql < init.sql to initiate database.\
 Usage:\
 ```sh
 $ mkdir build
